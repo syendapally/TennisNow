@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id = "@+id/video"
+        android:icon="@drawable/play"
+        android:title = "Video Search"
+        app:showAsAction="always"/>
+    <item android:id = "@+id/chaticon"
+        android:icon="@drawable/ic_chat_bubble_black_24dp"
+        android:title = "Chat"
+        app:showAsAction="always"/>
+    <item android:id = "@+id/refreshicon"
+        android:icon="@drawable/refreshpnggood"
+        android:title = "Refresh"
+        app:showAsAction="always"/>
+    <item android:id = "@+id/notify"
+        android:icon="@mipmap/hh"
+        android:title = "Head to Head"
+        app:showAsAction="always"/>
+</menu>

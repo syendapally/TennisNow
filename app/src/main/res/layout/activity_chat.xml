@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.syend.tennisnow.Chat">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:id="@+id/input"
+        android:hint="Enter Message"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+
+        tools:ignore="RelativeOverlap"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textAllCaps="false" />
+
+    <ImageView
+        app:srcCompat="@drawable/chat"
+        android:id="@+id/send"
+        android:layout_width="40dp"
+        android:contentDescription="semdimage"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/input"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/sign_out"
+        android:layout_toEndOf="@+id/input"
+        android:id="@+id/signout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="diff" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="390dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_above="@+id/send"
+        android:layout_height="325dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageChat"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="sans-serif-condensed" />
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "980977744259",
+    "firebase_url": "https://tennisnow-3445b.firebaseio.com",
+    "project_id": "tennisnow-3445b",
+    "storage_bucket": "tennisnow-3445b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980977744259:android:70378831f3ee66c5",
+        "android_client_info": {
+          "package_name": "com.example.syend.tennisnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980977744259-4h9g12k6bi0fnn7tq7tu1ti3mj85kl9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcZChRQwODUN46nx_fZs9Z0tTYd5zgXSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
